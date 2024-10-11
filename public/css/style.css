@@ -240,8 +240,13 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 10rem;
+  /* padding-bottom: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
 }
 /* Features Section */
