@@ -249,12 +249,23 @@ header .intro-text {
   height: 100vh;
   text-align: center;
 }
-/* Features Section */
+/* Meeting Info Section */
 #meeting-info {
   margin-top: 5rem;
   margin-bottom: 5rem;
   background: #f6f6f6;
 }
+
+#meeting-info .outer-meeting-info-card {
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#meeting-info .inner-meeting-info-card {
+  background-color: #cc0033;
+  padding: 5rem 5rem;
+}
+
 #meeting-info i.fa {
   font-size: 38px;
   margin-bottom: 20px;

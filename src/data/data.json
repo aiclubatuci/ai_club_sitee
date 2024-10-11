@@ -162,7 +162,16 @@
     "youtube": "youtube.com"
   },
   "MeetingInfo": [
-    
+    {
+      "icon":"fa fa-bullhorn",
+      "title": "Where",
+      "text": "that place"
+    },
+    {
+      "icon":"fa fa-bullhorn",
+      "title": "When",
+      "text": "that time"
+    }
   ],
   "Features": [
     {
