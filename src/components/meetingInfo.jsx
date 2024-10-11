@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Features = (props) => {
+export const MeetingInfo = (props) => {
   return (
-    <section id="features" className="text-center">
+    <section id="meeting-info" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Features</h2>

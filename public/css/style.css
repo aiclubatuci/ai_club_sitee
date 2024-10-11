@@ -250,12 +250,12 @@ header .intro-text {
   text-align: center;
 }
 /* Features Section */
-#features {
+#meeting-info {
   margin-top: 5rem;
   margin-bottom: 5rem;
   background: #f6f6f6;
 }
-#features i.fa {
+#meeting-info i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
