@@ -4,18 +4,20 @@
     "paragraph": "Shaping the Future of AI"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Artificial Intelligence at the University of California, Irvine (AI@UCI) is a nonprofit student-run organization that focuses on promoting and cultivating the discipline of artificial intelligence and machine learning and its applications among the UCI community.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      [
+        "Events",
+        "We hold workshops, meetings for the curious ones to learn the latest technology, espcially AI. We also have projects to participate in. More info is on the discord."
+      ],
+      [
+        "Connections",
+        "From professionals of the academia to almuni from the industry world, we got you guys connected through our unique seminars."
+      ],
+      [
+        "Mentorship",
+        "We have talented and like-minded mentors ready to support you throughout your AI journey."
+      ]
     ]
   },
   "Gallery": [
