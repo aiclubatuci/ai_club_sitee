@@ -42,13 +42,13 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
+                <h2>Connnect with us!</h2>
+                {/* <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
-                </p>
+                </p> */}
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -95,12 +95,19 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
-              </form>
+              </form> */}
+              <div className="connect-descrip">If you have any questions or want to collab with us, feel free to send us an email!</div>
+
+              <div className="hi">
+                ai_uci@gmail.com
+              </div>
             </div>
+            
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+
+          {/* <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Connect with us!</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
@@ -124,10 +131,16 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
-          </div>
+          </div> */}
+
+          <div className="logoo">LOGO OR IMAGE</div>
+          
+          
           <div className="col-md-12">
             <div className="row">
               <div className="social">
+                <div className="social-text">Follow us on social media</div>
+
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
