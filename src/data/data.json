@@ -134,24 +134,148 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Benjoseph Villamor",
+      "job": "President"
     },
+
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Varun Sunkavalli",
+      "job": "Vice President"
     },
+
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/02.jpg",
+      "name": "Sara-Grace Lien",
+      "job": "Board Advisor"
+    },
+
+    {
+      "img": "img/team/02.jpg",
+      "name": "Nitesh Nagesh",
+      "job": "Senior Mentor"
+    },
+
+    {
+      "img": "img/team/02.jpg",
+      "name": "Daniel Li",
+      "job": "Treasurer"
+    },
+
+    {
+      "img": "img/team/02.jpg",
+      "name": "Roy Richa",
+      "job": "Secretary"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Steven Lee",
+      "job": "External Outreach"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Timofey Obraztsov",
+      "job": "Social Events Coordinator"
+    },
+    
+    {
+      "img": "img/team/04.jpg",
+      "name": "Julian Aparicio",
+      "job": "Communications"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Lan-Anh Dang Vu",
+      "job": "Communications"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Jasmine Marwaha",
+      "job": "Communications"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Shreya Nakum",
+      "job": "Marketing"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Vyom Shah",
+      "job": "Marketing"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Bobak Sadri",
+      "job": "Logistics"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Andy Cho",
+      "job": "Logistics"
+    },
+
+    {
+      "img": "img/team/03.jpg",
+      "name": "Anthony Nguyen",
+      "job": "Webmaster"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Ian Dai",
+      "job": "Webmaster"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "Elise Ji",
+      "job": "Webmaster"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Christian Phan",
+      "job": "Project Lead"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Sriharshini Gubbala",
+      "job": "Project Lead"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Jonathan Pan",
+      "job": "Project Lead"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karm Patel",
+      "job": "Project Lead"
+    },
+
+    {
+      "img": "img/team/04.jpg",
+      "name": "Allen Arani",
+      "job": "Workshop Coordinator"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "David Culciar",
+      "job": "Workshop Coordinator"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Mitali Mittal",
+      "job": "Workshop Coordinator"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Jackie Ramirez",
+      "job": "Workshop Coordinator"
     }
+
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
