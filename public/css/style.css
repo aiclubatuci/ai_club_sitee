@@ -822,7 +822,8 @@ label {
 .image-description {
   font-size: 14px;
   font-weight: 500;
-  color: rgb(33, 32, 32);
+  /* color: rgb(33, 32, 32); */
+  color: white;
   text-align: center;
   margin-top: 8px; /* Space between image and text */
 }
