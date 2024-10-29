@@ -15,16 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -96,13 +102,13 @@ export const Contact = (props) => {
                   Send Message
                 </button>
               </form> */}
-              <div className="connect-descrip">If you have any questions or want to collab with us, feel free to send us an email!</div>
-
-              <div className="hi">
-                ai_uci@gmail.com
+              <div className="connect-descrip">
+                If you have any questions or want to collab with us, feel free
+                to send us an email!
               </div>
+
+              <div className="hi">ai_uci@gmail.com</div>
             </div>
-            
           </div>
 
           {/* <div className="col-md-3 col-md-offset-1 contact-info">
@@ -134,8 +140,7 @@ export const Contact = (props) => {
           </div> */}
 
           <div className="logo">LOGO OR IMAGE</div>
-          
-          
+
           <div className="col-md-12">
             <div className="row">
               <div className="social">
@@ -161,16 +166,6 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
         </div>
       </div>
     </div>
