@@ -133,7 +133,7 @@ export const Contact = (props) => {
             </div>
           </div> */}
 
-          <div className="logoo">LOGO OR IMAGE</div>
+          <div className="logo">LOGO OR IMAGE</div>
           
           
           <div className="col-md-12">
