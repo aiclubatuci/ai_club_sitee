@@ -42,19 +42,18 @@ export const Contact = (props) => {
       );
   };
   return (
-    <div>
-      <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Connect with us!</h2>
-                {/* <p>
+    <div id="contact">
+      <div className="container">
+        <div className="col-md-8">
+          <div className="row">
+            <div className="section-title">
+              <h2>Connect with us!</h2>
+              {/* <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
                 </p> */}
-              </div>
-              {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
+            </div>
+            {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -102,16 +101,16 @@ export const Contact = (props) => {
                   Send Message
                 </button>
               </form> */}
-              <div className="connect-descrip">
-                If you have any questions or want to collab with us, feel free
-                to send us an email!
-              </div>
-
-              <div className="hi">ai_uci@gmail.com</div>
+            <div className="connect-descrip">
+              If you have any questions or want to collab with us, feel free to
+              send us an email!
             </div>
-          </div>
 
-          {/* <div className="col-md-3 col-md-offset-1 contact-info">
+            <div className="hi">ai_uci@gmail.com</div>
+          </div>
+        </div>
+
+        {/* <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Connect with us!</h3>
               <p>
@@ -139,31 +138,30 @@ export const Contact = (props) => {
             </div>
           </div> */}
 
-          <div className="logo">LOGO OR IMAGE</div>
+        <div className="logo">LOGO OR IMAGE</div>
 
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <div className="social-text">Follow us on social media</div>
+        <div className="col-md-12">
+          <div className="row">
+            <div className="social">
+              <div className="social-text">Follow us on social media</div>
 
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <ul>
+                <li>
+                  <a href={props.data ? props.data.facebook : "/"}>
+                    <i className="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.twitter : "/"}>
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.youtube : "/"}>
+                    <i className="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

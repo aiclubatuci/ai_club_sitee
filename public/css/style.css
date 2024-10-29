@@ -295,7 +295,7 @@ header .intro-text {
 
 /* Meeting Info Section */
 #meeting-info {
-  padding: 5rem 0;
+  padding: 100px 0;
   background: var(--primary);
 }
 
