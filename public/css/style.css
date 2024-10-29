@@ -206,7 +206,7 @@ hr {
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.2s linear;
@@ -439,7 +439,7 @@ h3 {
   padding: 100px 0;
 }
 
-#portfolio > .container > .section-title {
+#portfolio>.container>.section-title {
   color: var(--secondary);
 }
 
@@ -498,7 +498,7 @@ h3 {
   background: #f6f6f6;
 }
 
-#testimonials > .container > .section-title > h2 {
+#testimonials>.container>.section-title>h2 {
   color: var(--primary);
 }
 
@@ -550,7 +550,7 @@ h3 {
   padding: 100px 0;
 }
 
-#team > .container > .section-title > p {
+#team>.container>.section-title>p {
   color: var(--secondary);
 }
 
@@ -572,7 +572,7 @@ h3 {
   color: var(--secondary);
 }
 
-.caption > h4 {
+.caption>h4 {
   color: var(--secondary);
 }
 
@@ -582,6 +582,7 @@ h3 {
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   background: var(--primary);
   color: rgba(255, 255, 255, 0.75);
+  border-top: 1rem solid var(--secondary);
 }
 
 #contact .section-title {
