@@ -661,3 +661,60 @@ label {
     margin: 50px 0;
   }
 }
+
+
+/* for gallery */
+
+
+/* //// */
+.cont {
+  position: relative;
+  margin-top: 20px; /* Space above the slider */
+}
+
+.slide-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  width: 300px; 
+  height: 400px; 
+  margin: 0 auto; /* Center the card in  slider */
+  
+}
+
+.slide-image {
+  width: 100%; /* Full width of the card */
+  height: 70%; /* Height of the image portion */
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.image-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(33, 32, 32);
+  text-align: center;
+  margin-top: 8px; /* Space between image and text */
+}
+
+/* 
+.slick-prev, .slick-next {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+} */
+
+
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height:400px !important;
+  min-height: 1px;
+}
