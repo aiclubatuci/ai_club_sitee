@@ -247,7 +247,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/neuralnetbgs/80562.jpg) center center no-repeat;
   background-color: var(--secondary);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -302,11 +302,13 @@ header .intro-text {
 #meeting-info .outer-meeting-info-card {
   padding: 0 1.5rem;
   margin-bottom: 2rem;
+  border-radius: 25px;
 }
 
 #meeting-info .inner-meeting-info-card {
   background-color: #242424;
   padding: 5rem 5rem;
+  border-radius: 12px;
 }
 
 .inner-meeting-info-card>p,

@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Artificial Intelligence at UCI",
-    "paragraph": "Shaping the Future of AI"
+    "title": "Artifical Intelligence at UC Irvine",
+    "paragraph": "Shaping the future of AI"
   },
   "About": {
     "paragraph": "Artificial Intelligence at the University of California, Irvine (AI@UCI) is a nonprofit student-run organization that focuses on promoting and cultivating the discipline of artificial intelligence and machine learning and its applications among the UCI community.",
@@ -287,14 +287,14 @@
   },
   "MeetingInfo": [
     {
-      "icon":"fa fa-bullhorn",
+      "icon":"fa fa-building",
       "title": "Where",
-      "text": "that place"
+      "text": "DBH 6011"
     },
     {
-      "icon":"fa fa-bullhorn",
+      "icon":"fa fa-clock-o",
       "title": "When",
-      "text": "that time"
+      "text": "5 - 6:30 PM"
     }
   ],
   "Features": [
@@ -310,6 +310,16 @@
     },
     {
       "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon":"fa fa-building",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
