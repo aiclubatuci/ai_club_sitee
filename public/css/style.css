@@ -562,6 +562,7 @@ h3 {
   width: 240px;
   height: 250px;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 #team .thumbnail {
@@ -850,4 +851,8 @@ label {
   float: left;
   height:400px !important;
   min-height: 1px;
+}
+
+.youtube-butt {
+  margin-top: 50px;
 }

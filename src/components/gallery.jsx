@@ -26,6 +26,11 @@ export const Gallery = (props) => {
     arrows: true,
   }
 
+  // for youtube button!!
+  const buttonclick = () => {
+    window.open("https://www.youtube.com/@AIatUCI", "blank");
+  };
+
   const images = [
     {
 
@@ -107,11 +112,29 @@ export const Gallery = (props) => {
 
           </Slider>
 
+          {/* still need to update video */}
+          <Slider ref = {sliderRef} {...settings}>
+
+          {images.map((image, index) => (
+              <div className="slide-item" key={index}>
+                {/* <a href={image.videoLink} target="_blank" rel="noopener noreferrer"> */}
+                <a href={image.videoLink}>
+                  <img src={image.src} alt={image.alt} className="slide-image" />
+                </a>
+                <p className="image-description">{image.description}</p> {/* Description for each image */}
+              </div>
+            ))}
+
+          </Slider>
+
           {/* <button className="nexttt" onClick={() => sliderRef.current.slickNext()}>
           Next
           </button> */}
 
         </div>
+
+
+        <button onClick={buttonclick} className="youtube-butt">Subscribe to Our Channel!</button>
 
 
 
