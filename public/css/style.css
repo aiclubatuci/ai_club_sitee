@@ -247,8 +247,10 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: var(--secondary);
+  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
+  /* background-color: var(--secondary); */
+  background-color: black;
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -265,11 +267,12 @@ a:focus,
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
-.intro h1 span {
+.intro header-title {
   font-weight: 800;
   color: var(--accent);
 }
@@ -291,6 +294,21 @@ header .intro-text {
   justify-content: center;
   height: 100vh;
   text-align: center;
+}
+
+
+.header-title {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+  
+}
+
+header .main-pic {
+  margin-top: 10px;
+  height: 200px;
 }
 
 /* Meeting Info Section */
