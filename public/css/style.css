@@ -547,7 +547,12 @@ width: 500px;
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
+  background: black;
+}
+
+#testimonials .advise-title {
+  color: white;
 }
 
 #testimonials>.container>.section-title>h2 {
@@ -594,6 +599,32 @@ width: 500px;
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+
+
+
+#testimonials .advise-name {
+  color: white;
+  font-weight: 500px;
+}
+
+#testimonials .advise-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#testimonials .advise-box {
+  background: rgb(49, 49, 49);
+  display: flex;
+  margin-bottom: 100px;
+  width: 1300px;
+  
+}
+
+.advise-pic {
+  height:250px;
+  border-radius: 8px;
 }
 
 /* Team Section */
