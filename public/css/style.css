@@ -629,6 +629,29 @@ width: 500px;
   color: var(--secondary);
 }
 
+
+.hover-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  background-color: rgba(50, 50, 50, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover .hover-info {
+  opacity: 1;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
