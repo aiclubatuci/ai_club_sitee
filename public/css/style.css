@@ -96,7 +96,9 @@ hr {
 }
 
 #menu.navbar-default {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  /* background-color: black; */
+  background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
