@@ -596,12 +596,27 @@ width: 500px;
 
 /* Team Section */
 #team {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background: rgb(42, 41, 41);
   padding: 100px 0;
 }
 
 #team>.container>.section-title>p {
   color: var(--secondary);
+}
+
+#team .team-title {
+  /* color: var(--primary); */
+  color:rgb(219, 212, 212);
+}
+
+#team .team-descrip {
+  color: rgb(18, 93, 224);
+  padding-bottom: 30px;
+  font-size: large;
+  font-weight: 400px;
+  color:rgb(163, 163, 163)
+
 }
 
 #team h4 {

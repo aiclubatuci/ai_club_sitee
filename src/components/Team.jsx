@@ -4,12 +4,12 @@ export const Team = (props) => {
   return (
     <div id="team" className="text-center">
       <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Board</h2>
-          <p>
+        {/* <div className="col-md-8 col-md-offset-2 section-title"> */}
+          <h2 className="team-title">Meet the Board</h2>
+          <p className="team-descrip">
             Our lovely team of twenty-six people!
           </p>
-        </div>
+        {/* </div> */}
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
