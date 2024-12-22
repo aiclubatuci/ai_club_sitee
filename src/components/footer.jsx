@@ -3,14 +3,10 @@ export default function Footer() {
     <div id="footer">
       <div className="container text-center">
         <p>
-          Made with 😙 in Irvine, CA | Adapted from{" "}
-          <a
-            href="https://github.com/issaafalkattan/React-Landing-Page-Template"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Issaaf Kattan
-          </a>
+          Made with 😙 in Irvine, CA | Adapted from Issaaf Kattan
+          
+
+          | Developed by <span class="contributors">Elise Ji, Ian Dai, and Anthony Nguyen</span>
         </p>
       </div>
     </div>

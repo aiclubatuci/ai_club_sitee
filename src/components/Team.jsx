@@ -9,6 +9,7 @@ export const Team = (props) => {
           <p className="team-descrip">
             Our lovely team of twenty-six people!
           </p>
+
         {/* </div> */}
         <div id="row">
           {props.data
