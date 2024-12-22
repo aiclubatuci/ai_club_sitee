@@ -15,7 +15,7 @@ export const Testimonials = (props) => {
 
             <div>
               <h1 className="advise-name">Alexander Ihler</h1>
-              <h3>"I work in artificial intelligence and machine learning, focusing on statistical methods for learning from data and on approximate inference techniques for graphical models. Applications of my work include data mining and information fusion in sensor networks, computer vision and image processing, and computational biology."</h3>
+              <h3 className="advise-descrip">"I work in artificial intelligence and machine learning, focusing on statistical methods for learning from data and on approximate inference techniques for graphical models. Applications of my work include data mining and information fusion in sensor networks, computer vision and image processing, and computational biology."</h3>
             </div>
 
           </div>
@@ -28,7 +28,7 @@ export const Testimonials = (props) => {
 
             <div>
               <h1 className="advise-name">Stephan Mandt</h1>
-              <h3>"I work in artificial intelligence and machine learning, focusing on statistical methods for learning from data and on approximate inference techniques for graphical models. Applications of my work include data mining and information fusion in sensor networks, computer vision and image processing, and computational biology."</h3>
+              <h3 className="advise-descrip">"I work in artificial intelligence and machine learning, focusing on statistical methods for learning from data and on approximate inference techniques for graphical models. Applications of my work include data mining and information fusion in sensor networks, computer vision and image processing, and computational biology."</h3>
             </div>
             
           </div>

@@ -605,27 +605,45 @@ width: 500px;
 
 #testimonials .advise-name {
   color: white;
-  font-weight: 500px;
+  font-weight: bolder;
+}
+
+.advise-descrip {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: medium;
+  width: 300px;
 }
 
 #testimonials .advise-cont {
+  padding-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  gap: 100px;
+  justify-content: center;
+
 }
 
 #testimonials .advise-box {
-  background: rgb(49, 49, 49);
+  background:rgb(42, 42, 42);
   display: flex;
+  flex-direction: column;
   margin-bottom: 100px;
-  width: 1300px;
-  
+  width: 400px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
 }
 
 .advise-pic {
+  margin-top: 40px;
   height:250px;
-  border-radius: 8px;
+  border-radius: 3px;
 }
+
+
 
 /* Team Section */
 #team {
