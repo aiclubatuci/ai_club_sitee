@@ -381,6 +381,7 @@ width: 500px;
 
 /* About Section */
 #about {
+  background:  rgb(33, 32, 32);
   padding: 100px 0;
 }
 
