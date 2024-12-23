@@ -112,20 +112,7 @@ export const Gallery = (props) => {
 
           </Slider>
 
-          {/* still need to update video */}
-          <Slider ref = {sliderRef} {...settings}>
-
-          {images.map((image, index) => (
-              <div className="slide-item" key={index}>
-                {/* <a href={image.videoLink} target="_blank" rel="noopener noreferrer"> */}
-                <a href={image.videoLink}>
-                  <img src={image.src} alt={image.alt} className="slide-image" />
-                </a>
-                <p className="image-description">{image.description}</p> {/* Description for each image */}
-              </div>
-            ))}
-
-          </Slider>
+          
 
           {/* <button className="nexttt" onClick={() => sliderRef.current.slickNext()}>
           Next

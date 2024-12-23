@@ -188,7 +188,7 @@ hr {
   position: absolute;
   content: "";
   /* background: var(--accent); */
-  background: orange;
+  background: rgb(120, 119, 119);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -999,6 +999,11 @@ label {
 
 .youtube-butt {
   margin-top: 50px;
+  font-size: large;
+  height:50px;
+  width:250px;
+  border-radius: 10px;
+
 }
 
 
