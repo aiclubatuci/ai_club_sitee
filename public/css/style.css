@@ -1000,10 +1000,19 @@ label {
 .youtube-butt {
   margin-top: 50px;
   font-size: large;
+  font-weight: bold;
   height:50px;
   width:250px;
   border-radius: 10px;
+  background-color: gray;
+  color:white;
+  border: 0px;
 
+}
+
+.youtube-butt:hover {
+  background-color: #5b6e9c;
+  color:white;
 }
 
 
