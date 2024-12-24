@@ -381,7 +381,8 @@ width: 500px;
 
 /* About Section */
 #about {
-  background:  rgb(33, 32, 32);
+  /* background:  rgb(33, 32, 32); */
+  background: black;
   padding: 100px 0;
 }
 
@@ -391,9 +392,12 @@ width: 500px;
 }
 
 #about h2 {
-  position: relative;
+  /* position: relative;
   margin-bottom: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 15px; */
+  color: rgb(227, 226, 226);
+  font-weight: 500;
+  text-transform: none;
 }
 
 #about h2::after {
@@ -433,6 +437,33 @@ width: 500px;
 #about p {
   line-height: 24px;
   margin: 30px 0;
+}
+
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.about-img {
+  margin: 140px;
+  width: 100px;
+  height: 350px;
+  border-radius: 8px;
+
+}
+
+.about-descrip {
+  margin-top: 50px;
+  width:550px;
 }
 
 /* Services Section */
@@ -1020,4 +1051,22 @@ label {
 /* for footer */
 .contributors{
   color: rgb(67, 143, 229);
+}
+
+
+/* colors for highlihgtsing */
+.blue {
+  color: rgb(67, 143, 229);
+}
+
+.yellow {
+  color: rgb(232, 205, 52); 
+}
+
+.orange {
+  color: rgb(247, 98, 5);
+}
+
+.green {
+  color: rgb(84, 184, 84);
 }

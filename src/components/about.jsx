@@ -3,37 +3,43 @@ import React from "react";
 export const About = (props) => {
   return (
     <section id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+      <div className="about-cont">
+
+        <div className="about-info">
+          <div>
+            <img src="img/about/zotgpt1.png" className="about-img" alt="" />{" "}
           </div>
 
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>We're AI@UCI.</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+          <div>
+            {/* <h2>WE'RE AI@UCI</h2> */}
+            <h2 className="about-descrip">Learn more about <span className="blue">new technologies</span> especially within <span className="blue">aritifical intelligence</span> and <span className="blue">machine learning</span> through our events and team-projects.</h2>
+          </div>
 
-              <div>
-                {props.data
-                  ? props.data.Why.map((d, i) => (
-                      <div
-                        key={`${d[0]}-${i}`}
-                        className="col-lg-6 col-sm-6 col-xs-12 info-item"
-                      >
-                        <div>
-                          <h4>{d[0]}</h4>
-                          <span>{d[1]}</span>
-                        </div>
-                      </div>
-                    ))
-                  : "loading"}
-              </div>
+        </div>
 
-            </div>
+        <div className="about-info">
+          <div>
+            <h2 className="about-descrip">From <span className="yellow">professionals</span> of the academia to almuni from the industry world, we got you guys <span className="yellow">connected</span> through our unique seminars.</h2>
+          </div>
+
+          <div>
+            <img src="img/about/racecar.png" className="about-img" alt="" />{" "}
           </div>
         </div>
+
+        <div className="about-info">
+          <div>
+            <img src="img/about/speakers.png" className="about-img" alt="" />{" "}
+          </div>
+
+          <div>
+            <h2 className="about-descrip">We have talented and like-minded <span className="green">mentors</span> ready to support you throughout your <span className="green">AI journey.</span></h2>
+            <h3>More info on our discord</h3>
+          </div>
+          
+        </div>
+
+        
       </div>
     </section>
   );
