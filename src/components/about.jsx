@@ -34,7 +34,7 @@ export const About = (props) => {
 
           <div>
             <h2 className="about-descrip">We have talented and like-minded <span className="green">mentors</span> ready to support you throughout your <span className="green">AI journey.</span></h2>
-            <h3>More info on our discord</h3>
+            <h3>More info on our <a href={"https://discord.gg/zUxJbSAgPc"} target="_blank" rel="noopener noreferrer">discord</a></h3>
           </div>
           
         </div>
