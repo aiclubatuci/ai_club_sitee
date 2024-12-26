@@ -26,6 +26,11 @@ export const Gallery = (props) => {
     arrows: true,
   }
 
+  // for youtube button!!
+  const buttonclick = () => {
+    window.open("https://www.youtube.com/@AIatUCI", "blank");
+  };
+
   const images = [
     {
 
@@ -107,11 +112,16 @@ export const Gallery = (props) => {
 
           </Slider>
 
+          
+
           {/* <button className="nexttt" onClick={() => sliderRef.current.slickNext()}>
           Next
           </button> */}
 
         </div>
+
+
+        <button onClick={buttonclick} className="youtube-butt">Subscribe to Our Channel!</button>
 
 
 

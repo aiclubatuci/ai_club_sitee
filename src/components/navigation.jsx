@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            AI @ UCI
+            AI at UCI
           </a>{" "}
         </div>
 
@@ -28,13 +28,13 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#meeting-info" className="page-scroll">
-                Features
+              <a href="#about" className="page-scroll">
+                About
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                About
+              <a href="#meeting-info" className="page-scroll">
+                Meetings
               </a>
             </li>
             <li>
@@ -44,7 +44,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                Advisors
               </a>
             </li>
             <li>

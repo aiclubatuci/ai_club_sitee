@@ -4,10 +4,28 @@ export const MeetingInfo = (props) => {
   return (
     <section id="meeting-info" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        {/* <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Meeting Info</h2>
+        </div> */}
+
+        <h2 className="meeting-title">Meeting Info</h2>
+
+        <div className="meeting-cont"> 
+          <div className="meeting-descrip">Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings and workshops!</div>
+
+          <div>
+            <img src="/img/meeting/meeting.png" alt="meet" className="meeting-pic"/>
+          </div>
+
+
         </div>
-        <div className="row">
+        
+        
+        
+        
+        
+        
+        {/* <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div
@@ -22,7 +40,7 @@ export const MeetingInfo = (props) => {
                 </div>
               ))
             : "Loading..."}
-        </div>
+        </div> */}
       </div>
     </section>
   );
