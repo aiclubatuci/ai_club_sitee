@@ -90,6 +90,13 @@ hr {
 }
 
 /* Navigation */
+#navicon {
+  left: 0;
+  width: 50%;
+  filter: invert(100%);
+}
+
+
 #menu {
   padding: 15px;
   transition: all 0.8s;
