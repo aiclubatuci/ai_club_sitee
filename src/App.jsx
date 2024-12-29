@@ -28,15 +28,15 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <MeetingInfo data={landingPageData.MeetingInfo} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
       <Footer />
     </div>
   );
 };
 
 export default App;
+
+    //<About data={landingPageData.About} />
+    //<MeetingInfo data={landingPageData.MeetingInfo}/>
+    //<Testimonials data={landingPageData.Testimonials} />
+    //<Contact data={landingPageData.Contact} />
