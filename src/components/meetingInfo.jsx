@@ -8,16 +8,14 @@ export const MeetingInfo = (props) => {
           <h2>Meeting Info</h2>
         </div> */}
 
-        <h2 className="meeting-title">Meeting Info</h2>
+        <h2 id="meeting-title">Meeting Info</h2>
 
-        <div className="meeting-cont"> 
-          <div className="meeting-descrip">Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings and workshops!</div>
-
+        <div id="meeting-cont"> 
+          <div id="meeting-descrip" class="text-wrap">Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings and workshops!</div>
+          <hr></hr>
           <div>
-            <img src="/img/meeting/meeting.png" alt="meet" className="meeting-pic"/>
+            <img id="meeting-pic" src="/img/meeting/aif.jpg" alt="meet" className="img-responsive"/>
           </div>
-
-
         </div>
         
         

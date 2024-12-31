@@ -327,10 +327,14 @@ header .main-pic {
 /* Meeting Info Section */
 #meeting-info {
   padding: 100px 0;
-  /* background: var(--primary); */
-  /* background: black; */
-  /* background: 1e1d1d; */
-  background: rgb(33, 32, 32);
+  background: #191919;
+}
+
+#meeting-title {
+  color: #dfdede;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  text-decoration: #dfdede underline;
 }
 
 #meeting-info .outer-meeting-info-card {
@@ -372,17 +376,15 @@ h3 {
 }
 
 
-#meeting-info .meeting-descrip {
-color: rgb(195, 193, 193);
-font-size: 30px;
-font-weight: 500;
-text-align: left;
-width: 500px;
+#meeting-descrip {
+  color: rgb(195, 193, 193);
+  font-size: medium;
+  font-weight: 545;
+  font-family: sans-serif;
 }
 
-#meeting-info .meeting-pic {
-  height: 400px;
-  /* margin-left: 10px; */
+#meeting-pic {
+  border-radius: 25px;
 }
 
 #meeting-info .meeting-title {
