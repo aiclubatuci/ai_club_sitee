@@ -325,6 +325,10 @@ header .main-pic {
 }
 
 /* Meeting Info Section */
+#meeting-cont {
+  margin: auto;
+}
+
 #meeting-info {
   padding: 100px 0;
   background: #191919;
@@ -367,13 +371,7 @@ h3 {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-#meeting-info .meeting-cont {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 60%;
 
-}
 
 
 #meeting-descrip {
@@ -385,6 +383,9 @@ h3 {
 
 #meeting-pic {
   border-radius: 25px;
+  width: 45vw;
+  display: block;
+  margin: 0 auto;
 }
 
 #meeting-info .meeting-title {
