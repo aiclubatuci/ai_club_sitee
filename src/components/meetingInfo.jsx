@@ -13,9 +13,36 @@ export const MeetingInfo = (props) => {
         <div id="meeting-cont"> 
           <div id="meeting-descrip" class="text-wrap">Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings and workshops!</div>
           <hr></hr>
-          <div>
-            <img id="meeting-pic" src="/img/meeting/aif.jpg" alt="meet" className="img-responsive"/>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img id="meeting-pic" src="/img/meeting/aif.jpg" alt="Anteater Involvement Fair"/>
+              </div>
+
+              <div class="item">
+                <img id="meeting-pic" src="/img/meeting/aif2.jpg" alt="Anteater Involvement Fair"/>
+              </div>
+
+              <div class="item">
+                <img id="meeting-pic" src="/img/meeting/aws1.jpg" alt="AWS Workshop"/>
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
           </div>
+
         </div>
         
         
