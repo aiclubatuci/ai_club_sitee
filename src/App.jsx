@@ -28,6 +28,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <About data={landingPageData.About} />
       <MeetingInfo data={landingPageData.MeetingInfo}/>
       <Team data={landingPageData.Team} />
       <Footer />
@@ -37,6 +38,5 @@ const App = () => {
 
 export default App;
 
-    //<About data={landingPageData.About} />
     //<Testimonials data={landingPageData.Testimonials} />
     //<Contact data={landingPageData.Contact} />
