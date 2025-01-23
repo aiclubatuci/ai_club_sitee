@@ -19,7 +19,7 @@ export const About = (props) => {
 
         <div className="about-info">
           <div>
-            <h2 className="about-descrip">From <span className="yellow">professionals</span> of the academia to almuni from the industry world, we got you guys <span className="yellow">connected</span> through our unique seminars.</h2>
+            <h2 className="about-descrip">From <span className="blue">professionals</span> of the academia to almuni from the industry world, we got you guys <span className="blue">connected</span> through our unique seminars.</h2>
           </div>
 
           <div>
@@ -33,7 +33,7 @@ export const About = (props) => {
           </div>
 
           <div>
-            <h2 className="about-descrip">We have talented and like-minded <span className="green">mentors</span> ready to support you throughout your <span className="green">AI journey.</span></h2>
+            <h2 className="about-descrip">We have talented and like-minded <span className="blue">mentors</span> ready to support you throughout your <span className="blue">AI journey.</span></h2>
             <h3>More info on our <a href={"https://discord.gg/zUxJbSAgPc"} target="_blank" rel="noopener noreferrer">discord</a></h3>
           </div>
           
