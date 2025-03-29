@@ -4,14 +4,15 @@ import { Header } from "./components/header";
 import { MeetingInfo } from "./components/meetingInfo";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
+// import { Gallery } from "./components/gallery";
+import { Advisors } from "./components/advisors";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import Footer from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import Footer from "./components/footer";
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -29,7 +30,8 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
-      <MeetingInfo data={landingPageData.MeetingInfo}/>
+      <MeetingInfo data={landingPageData.MeetingInfo} />
+      <Advisors data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Footer />
     </div>
@@ -38,5 +40,5 @@ const App = () => {
 
 export default App;
 
-    //<Testimonials data={landingPageData.Testimonials} />
-    //<Contact data={landingPageData.Contact} />
+
+//<Contact data={landingPageData.Contact} />

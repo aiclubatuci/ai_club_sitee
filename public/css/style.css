@@ -411,7 +411,8 @@ h3 {
   text-decoration: underline;
 }
 
-#about h2::after, #about-white h2::after {
+#about h2::after,
+#about-white h2::after {
   position: absolute;
   content: "";
   background: var(--accent);
@@ -591,21 +592,21 @@ h3 {
 }
 
 /* Testimonials Section */
-#testimonials {
+#advisors {
   padding: 100px 0;
   /* background: #f6f6f6; */
   background: black;
 }
 
-#testimonials .advise-title {
+#advisors .advise-title {
   color: white;
 }
 
-#testimonials > .container > .section-title > h2 {
+#advisors > .container > .section-title > h2 {
   color: var(--primary);
 }
 
-#testimonials i {
+#advisors i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
@@ -647,7 +648,7 @@ h3 {
   color: #666;
 }
 
-#testimonials .advise-name {
+#advisors .advise-name {
   color: white;
   font-weight: bolder;
 }
@@ -660,7 +661,7 @@ h3 {
   width: 300px;
 }
 
-#testimonials .advise-cont {
+#advisors .advise-cont {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
@@ -669,14 +670,29 @@ h3 {
   justify-content: center;
 }
 
-#testimonials .advise-box {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  #advisors {
+    padding-bottom: 0;
+  }
+
+  #advisors .advise-cont {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #advisors .advise-box {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#advisors .advise-box {
+  padding: 30px;
   max-width: 400px;
   background: rgb(42, 42, 42);
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-  width: 400px;
   align-items: center;
   text-align: center;
   border-radius: 8px;
@@ -1090,7 +1106,7 @@ label {
   #about img,
   .about-descrip,
   #contact .hi,
-  #testimonials .advise-box,
+  #advisors .advise-box,
   #team .team-img {
     max-width: 100%;
   }
