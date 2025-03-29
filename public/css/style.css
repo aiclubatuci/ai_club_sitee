@@ -92,7 +92,7 @@ hr {
 /* Navigation */
 #navicon {
   left: 0;
-  width: 50%;
+  width: 18%;
   filter: invert(100%);
 }
 
@@ -108,8 +108,8 @@ hr {
 
 #menu.navbar-default {
   /* background-color: var(--primary); */
-  /* background-color: black; */
-  background-color: transparent;
+  background-color: black;
+  /* background-color: transparent; */
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }

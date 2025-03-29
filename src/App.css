@@ -17,3 +17,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0);
+  }
+}
