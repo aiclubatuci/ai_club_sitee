@@ -6,7 +6,7 @@ export default function Footer() {
           Made with 😙 in Irvine, CA | Adapted from Issaaf Kattan
           
 
-          | Developed by <span class="contributors">Elise Ji, Ian Dai, and Anthony Nguyen</span>
+          | Developed by <span className="contributors">Elise Ji, Ian Dai, and Anthony Nguyen</span>
         </p>
       </div>
     </div>
