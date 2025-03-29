@@ -1,19 +1,19 @@
 @media screen and (max-width: 400px) {
   #meeting-info {
     padding: 20px;
-    width: 111%;
+    width: 100%;
   }
-  #intro
+  #intro,
   #about,
   #services,
   #testimonials,
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 100%;
   }
 
   #portfolio {
-    width: 110%;
+    width: 100%;
   }
 }
