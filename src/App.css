@@ -94,3 +94,25 @@
   display: block;
   border-radius: 8px;
 }
+
+#meeting-pic {
+  border-radius: 25px;
+  width: 45vw;
+  display: block;
+  margin: 0 auto;
+  height: 60vh; /* Default height for desktop */
+  object-fit: cover; /* This ensures the image covers the area without distortion */
+}
+
+@media screen and (max-width: 1024px) {
+  #meeting-info {
+    padding: 20px;
+    width: 100%;
+  }
+
+  #meeting-pic {
+    width: 90vw; /* Wider on mobile */
+    height: 40vh; /* Taller on mobile */
+  }
+}
+
