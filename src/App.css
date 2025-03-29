@@ -5,6 +5,7 @@
   }
   #intro,
   #about,
+  #about-white,
   #services,
   #testimonials,
   #team,
@@ -22,4 +23,74 @@
   .navbar-collapse {
     background-color: rgba(0, 0, 0);
   }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  #about-white .row {
+    flex-direction: column;
+  }
+
+  .about-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+#about {
+  padding: 100px 0;
+  /* background: #191919; */
+  background: #000000;
+}
+
+#about-white {
+  padding: 100px 0;
+  background: black;
+}
+
+.about-text {
+  margin-top: 30px;
+}
+
+.about-text h2 {
+  color: #ececec;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #ececec;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.col-xs-12 {
+  flex: 1 1 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }

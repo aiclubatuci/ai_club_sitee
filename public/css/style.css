@@ -407,7 +407,11 @@ h3 {
   text-transform: none;
 }
 
-#about h2::after {
+.link-text {
+  text-decoration: underline;
+}
+
+#about h2::after, #about-white h2::after {
   position: absolute;
   content: "";
   background: var(--accent);
@@ -1050,7 +1054,7 @@ label {
   color: rgb(67, 143, 229);
 }
 
-/* colors for highlihgtsing */
+/* colors for highlighting */
 .blue {
   color: rgb(67, 143, 229);
 }
