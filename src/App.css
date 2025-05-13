@@ -114,5 +114,10 @@
     width: 90vw; /* Wider on mobile */
     height: 40vh; /* Taller on mobile */
   }
+
+  #advisors {
+    padding: 20px;
+    width: 100%;
+  }
 }
 

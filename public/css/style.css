@@ -593,9 +593,10 @@ h3 {
 
 /* Testimonials Section */
 #advisors {
-  padding: 100px 0;
+  padding-top: 25px;
+  padding-bottom: 0px;
   /* background: #f6f6f6; */
-  background: black;
+  background: #292928;
 }
 
 #advisors .advise-title {
@@ -671,7 +672,7 @@ h3 {
 }
 
 #advisors .advise-cont {
-  padding-top: 20px;
+  padding-top: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -682,6 +683,7 @@ h3 {
 @media screen and (max-width: 768px) {
   #advisors {
     padding-bottom: 0;
+    padding-top: 20px
   }
 
   #advisors .advise-cont {
@@ -697,11 +699,12 @@ h3 {
 
 #advisors .advise-box {
   padding: 30px;
+  padding-top: 0;
   max-width: 400px;
-  background: rgb(42, 42, 42);
   display: flex;
+  background: transparent;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 2px;
   align-items: center;
   text-align: center;
   border-radius: 8px;
