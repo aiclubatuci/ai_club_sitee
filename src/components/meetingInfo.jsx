@@ -9,6 +9,7 @@ export const MeetingInfo = (props) => {
         </div> */}
 
         <h2 id="meeting-title">Meeting Info</h2>
+        
 
         <div id="meeting-cont"> 
           <div id="meeting-descrip" className="text-wrap">Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings and workshops!</div>
@@ -19,6 +20,9 @@ export const MeetingInfo = (props) => {
               <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
 
             <div className="carousel-inner">
@@ -33,6 +37,18 @@ export const MeetingInfo = (props) => {
               <div className="item">
                 <img id="meeting-pic" src="/img/meeting/aws1.jpg" alt="AWS Workshop"/>
               </div>
+
+              <div className="item">
+                <img id="meeting-pic" src="/img/meeting/cloudhacks.jpg" alt="AWS Cloudhacks"/>
+              </div>
+
+              <div className="item">
+                <img id="meeting-pic" src="/img/meeting/racecar.png" alt="AWS Deepracer"/>
+              </div>
+
+              <div className="item">
+                <img id="meeting-pic" src="/img/meeting/IMG_3265.png" alt="AWS Cloudhacks"/>
+              </div>
             </div>
 
             <a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -43,9 +59,8 @@ export const MeetingInfo = (props) => {
             </a>
           </div>
 
+
         </div>
-        
-        
         
         
         

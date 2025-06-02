@@ -19,12 +19,12 @@ export const Advisors = (props) => {
 
           <div>
             <h1 className="advise-name">Alexander Ihler</h1>
-            <h3 className="advise-descrip">
-              "I work in artificial intelligence and machine learning, focusing
+            <h3 className="advise-descrip text-wrap">
+              Ihler conducts research in artificial intelligence and machine learning, focusing
               on statistical methods for learning from data and on approximate
-              inference techniques for graphical models. Applications of my work
-              include data mining and information fusion in sensor networks,
-              computer vision and image processing, and computational biology."
+              inference techniques for graphical models. Applications of his work
+              includes data mining and information fusion in sensor networks,
+              computer vision and image processing, and computational biology.
             </h3>
           </div>
         </div>
@@ -40,12 +40,11 @@ export const Advisors = (props) => {
 
           <div>
             <h1 className="advise-name">Stephan Mandt</h1>
-            <h3 className="advise-descrip">
-              "I work in artificial intelligence and machine learning, focusing
-              on statistical methods for learning from data and on approximate
-              inference techniques for graphical models. Applications of my work
-              include data mining and information fusion in sensor networks,
-              computer vision and image processing, and computational biology."
+            <h3 className="advise-descrip text-wrap">
+               Stephan Mandt is an Associate Professor of Computer Science and Statistics at the University of California, Irvine,
+                where he leads research at the intersection of deep generative modeling, uncertainty quantification, 
+                neural data compression, and AI for science. His work advances the foundations and applications of generative AI, 
+                with a particular focus on resource-efficient learning and inference algorithms, as well as AI-driven scientific discovery.
             </h3>
           </div>
         </div>
