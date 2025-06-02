@@ -1,9 +1,6 @@
 import React from "react";
-// use this to use globe photo:
-{
-  /* <img src="/img/header/globe.gif" alt="Globe" /> */
-}
-export const Header = (props) => {
+
+export const Header = () => {
   return (
     <header id="header">
       <div className="intro">
