@@ -37,7 +37,7 @@ export const Contact = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/img/discord.svg"
+                  src="img/discord.svg"
                   alt="Discord"
                   style={{
                     width: "20px",

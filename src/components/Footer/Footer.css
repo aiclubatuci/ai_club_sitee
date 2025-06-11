@@ -56,12 +56,14 @@
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
   letter-spacing: 0.5px;
+  border-bottom: 2px solid transparent;
 }
 
 .contact-info a:hover,
 .footer-links a:hover,
 .additional-links a:hover {
   color: #4a6fd1;
+  border-bottom: 2px solid #608dfd;
 }
 
 #contact p {
@@ -72,6 +74,7 @@
 
 #contact a {
   color: #608dfd;
+  border-bottom: 2px solid transparent;
 }
 
 #contact a:hover {

@@ -31,7 +31,7 @@ export const MeetingInfo = () => {
               <div className="item active">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/aif.jpg"
+                  src="img/meeting/aif.jpg"
                   alt="Anteater Involvement Fair"
                 />
               </div>
@@ -39,7 +39,7 @@ export const MeetingInfo = () => {
               <div className="item">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/aif2.jpg"
+                  src="img/meeting/aif2.jpg"
                   alt="Anteater Involvement Fair"
                 />
               </div>
@@ -47,7 +47,7 @@ export const MeetingInfo = () => {
               <div className="item">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/aws1.jpg"
+                  src="img/meeting/aws1.jpg"
                   alt="AWS Workshop"
                 />
               </div>
@@ -55,7 +55,7 @@ export const MeetingInfo = () => {
               <div className="item">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/cloudhacks.jpg"
+                  src="img/meeting/cloudhacks.jpg"
                   alt="AWS Cloudhacks"
                 />
               </div>
@@ -63,7 +63,7 @@ export const MeetingInfo = () => {
               <div className="item">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/racecar.png"
+                  src="img/meeting/racecar.png"
                   alt="AWS Deepracer"
                 />
               </div>
@@ -71,7 +71,7 @@ export const MeetingInfo = () => {
               <div className="item">
                 <img
                   id="meeting-pic"
-                  src="/img/meeting/IMG_3265.png"
+                  src="img/meeting/IMG_3265.png"
                   alt="AWS Cloudhacks"
                 />
               </div>
@@ -93,23 +93,6 @@ export const MeetingInfo = () => {
             </a>
           </div>
         </div>
-
-        {/* <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div
-                  key={`${d.title}-${i}`}
-                  className="col-xs-12 col-md-6 outer-meeting-info-card"
-                >
-                  <div className="inner-meeting-info-card">
-                    <i className={d.icon}></i>
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                </div>
-              ))
-            : "Loading..."}
-        </div> */}
       </div>
     </section>
   );

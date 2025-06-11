@@ -11,7 +11,7 @@ export const Advisors = () => {
         <div className="advise-box">
           <div>
             <img
-              src="/img/advisors/ihler.png"
+              src="img/advisors/ihler.png"
               alt="Globe"
               className="advise-pic"
             />
@@ -33,7 +33,7 @@ export const Advisors = () => {
         <div className="advise-box">
           <div>
             <img
-              src="/img/advisors/mandt.png"
+              src="img/advisors/mandt.png"
               alt="Globe"
               className="advise-pic"
             />
