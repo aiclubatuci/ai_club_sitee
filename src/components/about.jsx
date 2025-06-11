@@ -4,7 +4,7 @@ export const About = () => {
       <section id="about">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-md-6 about-img-container">
               <img
                 src="img/about/DSC8426.jpg"
                 className="img-responsive"

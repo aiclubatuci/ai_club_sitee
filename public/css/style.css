@@ -479,6 +479,12 @@ h3 {
   max-width: 520px;
 }
 
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
