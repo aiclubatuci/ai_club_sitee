@@ -10,11 +10,17 @@ export const Advisors = () => {
       <div className="advise-cont">
         <div className="advise-box">
           <div>
-            <img
-              src="img/advisors/ihler.png"
-              alt="Globe"
-              className="advise-pic"
-            />
+            <a
+              href="https://ics.uci.edu/~ihler/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/advisors/ihler.png"
+                alt="Globe"
+                className="advise-pic"
+              />
+            </a>
           </div>
 
           <div>
@@ -32,11 +38,17 @@ export const Advisors = () => {
 
         <div className="advise-box">
           <div>
+            <a
+              href="https://www.stephanmandt.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <img
               src="img/advisors/mandt.png"
               alt="Globe"
               className="advise-pic"
             />
+          </a>
           </div>
 
           <div>
