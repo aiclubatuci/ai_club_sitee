@@ -1,0 +1,76 @@
+.center-container {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    grid-area: subscribe;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [input] 4fr [button] 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.subscribe-email {
+    grid-area: input;
+    border-radius: 4px;
+    height: 40px;
+    background-color: var(--black);
+    border: 10px solid var(--white);
+    color: var(--white);
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+}
+
+.subscribe-email::placeholder {
+    color: var(--white);
+    font-size: 16px;
+}
+
+.subscribe-email:focus, :hover {
+    border-color: #608dfd;
+}
+
+.subscribe-button {
+    grid-area: button;
+    height: 40px;
+    background-color: #608dfd;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.subscribe-button.hover {
+    filter: brightness(85%);
+}
+
+.subscribe-button:focus {
+    outline: none;
+}
+
+@media(max-width: 700px) {
+    .subscribe {
+        grid-template-areas: 
+        "input"
+        "button";
+    }
+
+    .subscribe-email,
+    .subscribe-button {
+        width: 250px;
+        grid-column: 1 / -1;
+    }
+}

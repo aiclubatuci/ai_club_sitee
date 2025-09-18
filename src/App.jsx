@@ -9,6 +9,7 @@ import { Contact } from "./components/contact";
 import Footer from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import EmailForm from './components/emailform';
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -18,6 +19,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -30,6 +32,7 @@ const App = () => {
       <MeetingInfo data={landingPageData.MeetingInfo} />
       <Advisors data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
+      <EmailForm/>
       <Contact />
       <Footer />
     </div>
