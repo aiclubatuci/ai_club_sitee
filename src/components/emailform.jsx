@@ -6,7 +6,9 @@ const EmailForm = () => {
 
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('');
-  const [message, setMessage] = useState('');
+
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   useEffect(() => {
     // Add Mailchimp CSS
@@ -53,28 +55,31 @@ const EmailForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus('sending');
-    setMessage('');
+    setErrorMessage('');
+    setSuccessMessage('');
     
     const url = `https://uci.us17.list-manage.com/subscribe/post-json?u=${process.env.U_ID}&id=${process.env.ID}`;
     
     jsonp(`${url}&EMAIL=${encodeURIComponent(email)}`, { param: 'c' }, (error, data) => {
       if (error) {
+        console.log(error);
+        console.log(email);
         setStatus('error');
-        setMessage('Something went wrong. Please try again.');
+        setErrorMessage('Something went wrong. Please try again.');
         return;
       }
       else {
-          
           if (data && typeof data === 'object') {
             const { msg = 'Thank you for subscribing!', result = 'success' } = data;
             setStatus(result);
-            setMessage(msg);
+            setSuccessMessage(msg);
+            return;
           } else {
             setStatus('error');
-            setMessage('Unexpected response format. Please try again.');
+            setErrorMessage('Unexpected response format. Please try again.');
+            return;
           }
       }
-      
   
     });
   };
@@ -133,8 +138,10 @@ const EmailForm = () => {
           </div>
 
           <div className="min-h-[75px] flex justify-center items-center">
-              {status !== 'error' && <p className="text-green-500">{message}</p>} 
-              {status === 'error' && <p className="text-red-500">{message}</p>}
+              
+              {successMessage && <p style={{ color: '#10b981' }}>{successMessage}</p>} 
+              {errorMessage && <p style={{ color: '#ef4444' }}>{errorMessage}</p>}
+    
           </div>
           
           <div id="mce-responses" className="clear foot">
