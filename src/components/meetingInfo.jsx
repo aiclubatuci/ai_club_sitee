@@ -8,7 +8,7 @@ export const MeetingInfo = () => {
 
         <div id="meeting-cont">
           <div id="meeting-descrip" className="text-wrap">
-            Join us every Friday at 5:00-6:30pm in DBH 6100 for general meetings
+            Join us every Wednesday at 4:00-5:30pm in DBH 6100 for general meetings
             and workshops!
           </div>
           <hr></hr>

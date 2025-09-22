@@ -3,7 +3,7 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <h2 className="team-title">Meet the Board</h2>
-        <p className="team-descrip">Our lovely team of twenty-six people!</p>
+        <p className="team-descrip">Our lovely team of thirty-two people!</p>
 
         <div id="row">
           {props.data

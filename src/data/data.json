@@ -133,174 +133,226 @@
   ],
   "Team": [
     {
-      "img": "img/team/2024-25/benjoseph.jfif",
-      "name": "Benjoseph Villamor",
-      "job": "President",
-      "linkedin": "/benjoseph-villamor/"
-    },
-
-    {
-      "img": "img/team/2024-25/varun.png",
-      "name": "Varun Sunkavalli",
-      "job": "Vice President",
-      "linkedin": "/varun-sunkavalli/"
-    },
-
-    {
-      "img": "img/team/2024-25/sara.jfif",
-      "name": "Sara-Grace Lien",
-      "job": "Board Advisor",
-      "linkedin": "/sara-l-8446b415b/"
-    },
-
-    {
-      "img": "img/team/2024-25/nitesh.jpg",
-      "name": "Nitesh Nagesh",
-      "job": "Senior Mentor",
-      "linkedin": "/nitish-nagesh/"
-    },
-
-    {
-      "img": "img/team/2024-25/daniel li.jfif",
-      "name": "Daniel Li",
-      "job": "Treasurer",
-      "linkedin": ""
-    },
-
-    {
-      "img": "img/team/2024-25/roy.jfif",
-      "name": "Roy Richa",
-      "job": "Secretary",
-      "linkedin": "/royjricha/"
-    },
-
-    {
-      "img": "img/team/2024-25/steven.jfif",
-      "name": "Steven Lee",
-      "job": "External Outreach",
-      "linkedin": "/steven-lee35/"
-    },
-
-    {
-      "img": "img/team/2024-25/tim.jfif",
-      "name": "Timofey Obraztsov",
-      "job": "Social Events Coordinator",
-      "linkedin": "/timofey-obraztsov/"
-    },
-
-    {
       "img": "img/team/2024-25/julian.jfif",
       "name": "Julian Aparicio",
-      "job": "Communications",
+      "job": "President",
       "linkedin": "/japa1/"
     },
-    {
-      "img": "img/team/2024-25/lanni.jfif",
-      "name": "Lan-Anh Dang Vu",
-      "job": "Communications",
-      "linkedin": "/lan-anh-dang-vu-4909421a7/"
-    },
-    {
-      "img": "img/team/2024-25/jasmine.jfif",
-      "name": "Jasmine Marwaha",
-      "job": "Communications",
-      "linkedin": "/jasmine-marwaha/"
-    },
 
-    {
-      "img": "img/team/2024-25/shreya.png",
-      "name": "Shreya Nakum",
-      "job": "Marketing",
-      "linkedin": "/shreya-nakum/"
-    },
     {
       "img": "img/team/2024-25/vyom.png",
       "name": "Vyom Shah",
-      "job": "Marketing",
-      "linkedin": "/vyom-shah-a52001184/"
+      "job": "Vice President",
+      "linkedin": "/vyomshah1/"
     },
 
     {
-      "img": "img/team/2024-25/bobak.jfif",
-      "name": "Bobak Sadri",
-      "job": "Logistics",
-      "linkedin": "/bobak-sadri/"
-    },
-    {
       "img": "img/team/2024-25/andy.jfif",
       "name": "Andy Choi",
-      "job": "Logistics",
+      "job": "Secretary",
       "linkedin": "/andy-choi-2b503a27b/"
     },
 
     {
-      "img": "img/team/2024-25/anthony.png",
-      "name": "Anthony Nguyen",
-      "job": "Webmaster",
-      "linkedin": "/anguyen2000/"
-    },
-    {
-      "img": "img/team/2024-25/ian.png",
-      "name": "Ian Dai",
-      "job": "Webmaster",
-      "linkedin": "/ian-dai/"
-    },
-    {
-      "img": "img/team/2024-25/elise.jfif",
-      "name": "Elise Ji",
-      "job": "Webmaster",
-      "gmail": "ccelisej.04@gmail.com",
-      "linkedin": "/elise-ji/"
+      "img": "img/team/2025-26/AshleyKang.jpg",
+      "name": "Ashley Kang",
+      "job": "Treasurer",
+      "linkedin": "/ashleykangg/"
     },
 
     {
-      "img": "img/team/2024-25/christian.png",
-      "name": "Christian Phan",
-      "job": "Project Lead",
-      "linkedin": "/christian-phan/"
+      "img": "img/team/2025-26/MaanPatel.jpeg",
+      "name": "Maan Patel",
+      "job": "Marketing Lead",
+      "linkedin": "/maanpatel111/"
     },
+
+    {
+      "img": "img/team/2025-26/NazAtalay.jpg",
+      "name": "Naz Atalay",
+      "job": "Marketing",
+      "linkedin": "/elifnazatalay/"
+    },
+
+    {
+      "img": "img/team/2025-26/Shreya_Mawandia_Headshot.jpeg",
+      "name": "Shreya Mawandia",
+      "job": "Marketing",
+      "linkedin": "/shreyamawandia/"
+    },
+    
+    {
+      "img": "img/team/2025-26/JayKim.png",
+      "name": "Jay Kim",
+      "job": "Marketing",
+      "linkedin": "/joonhyuk-kim-9b9643230/"
+    },
+
+    {
+      "img": "img/team/2024-25/jasmine.jfif",
+      "name": "Jasmine Marwaha",
+      "job": "Communications Lead",
+      "linkedin": "/jasmine-marwaha/"
+    },
+
+    {
+      "img": "img/team/2025-26/InjilaAdil.jpg",
+      "name": "Injila Adil",
+      "job": "Communications",
+      "linkedin": "/injila-adil-10b366214/"
+    },
+
+    {
+      "img": "img/team/2025-26/Oliver Guo.jpg",
+      "name": "Oliver Guo",
+      "job": "Communications",
+      "linkedin": "/oliver-guo-b2baa3334/"
+    },
+
+    {
+      "img": "img/team/2025-26/Vivan Bheda.jpg",
+      "name": "Vivan Bheda",
+      "job": "Communications",
+      "linkedin": "/vivanbheda/"
+    },
+
+    {
+      "img": "img/team/2025-26/SabrinaPukarta.jpg",
+      "name": "Sabrina Pukarta",
+      "job": "Logistics Lead",
+      "linkedin": "/sabrinapukarta/"
+    },
+
+    {
+      "img": "img/team/2025-26/ArnavSaharan.jpg",
+      "name": "Arnav Saharan",
+      "job": "Logistics",
+      "linkedin": "/arnav-saharan-b94967211/"
+    },
+
+    {
+      "img": "img/team/2025-26/AudreySun.jpg",
+      "name": "Audrey Sun",
+      "job": "Logistics",
+      "linkedin": "/audrey-sun-a14545129/"
+    },
+
+    {
+      "img": "img/team/2025-26/BaileyDeng.jpg",
+      "name": "Bailey Deng",
+      "job": "Logistics",
+      "linkedin": "/bailey-deng-613096213/"
+    },
+
+    {
+      "img": "img/team/2025-26/Isha Kotalwar.jpg",
+      "name": "Isha Kotalwar",
+      "job": "Logistics",
+      "linkedin": "/isha-kotalwar/"
+    },
+
+    {
+      "img": "img/team/2025-26/JohnsonNguyen.jpg",
+      "name": "Johnson Nguyen",
+      "job": "Webmaster Lead",
+      "linkedin": "/johnsonng05/"
+    },
+
+    {
+      "img": "img/team/2025-26/BrandonTran.jpg",
+      "name": "Brandon Tran",
+      "job": "Webmaster",
+      "linkedin": "/btrann0404/"
+    },
+
+    {
+      "img": "img/team/2025-26/JasonNguyen.jpeg",
+      "name": "Jason Nguyen",
+      "job": "Webmaster",
+      "linkedin": "/jasonngyen1331/"
+    },
+    {
+      "img": "img/team/2025-26/pratham hebbar.jpg",
+      "name": "Pratham Hebbar",
+      "job": "Webmaster",
+      "linkedin": "/prathamhebbar/"
+    },
+
     {
       "img": "img/team/2024-25/sri.png",
       "name": "Sriharshini Gubbala",
       "job": "Project Lead",
       "linkedin": "/sriharshini-gubbala-283740246/"
     },
+
     {
       "img": "img/team/2024-25/jonny.jfif",
       "name": "Jonathan Pan",
       "job": "Project Lead",
       "linkedin": "/jonathanypan/"
     },
+
     {
-      "img": "img/team/2024-25/karm.png",
-      "name": "Karm Patel",
-      "job": "Project Lead",
-      "linkedin": "/-karmp/"
+      "img": "img/team/2025-26/AnishNambirajan.jpg",
+      "name": "Anish Nambiraja",
+      "job": "Project Chair",
+      "linkedin": "/anish-nambirajan/"
     },
 
     {
-      "img": "img/team/2024-25/allen.png",
-      "name": "Allen Arani",
-      "job": "Workshop Coordinator",
-      "linkedin": "/allen-arani-69266616b/"
+      "img": "img/team/2025-26/ZacharyLai.jpg",
+      "name": "Zach Lai",
+      "job": "Project Chair",
+      "linkedin": "/zach-lai-251463227/"
     },
+
+    {
+      "img": "img/team/2025-26/HarshvardhanSharaff.jpg",
+      "name": "Harsh",
+      "job": "Project Chair",
+      "linkedin": "/harshvardhan-sharaff-195816213/"
+    },
+
+    {
+      "img": "img/team/2025-26/Aston Chan.jpeg",
+      "name": "Aston Chan",
+      "job": "Workshop Lead",
+      "linkedin": "/aston-chan/"
+    },
+
     {
       "img": "img/team/2024-25/david.jfif",
       "name": "David Culciar",
       "job": "Workshop Coordinator",
       "linkedin": "/david-culciar/"
     },
+
     {
       "img": "img/team/2024-25/mitali.jpg",
       "name": "Mitali Mittal",
       "job": "Workshop Coordinator",
       "linkedin": "/mitali-m/"
     },
+
     {
-      "img": "img/team/2024-25/jackie.png",
-      "name": "Jackie Ramirez",
+      "img": "img/team/2024-25/shreya.png",
+      "name": "Shreya Nakum",
       "job": "Workshop Coordinator",
-      "linkedin": "/jacqueline-rami0z/"
+      "linkedin": "/shreya-nakum/"
+    },
+
+    {
+      "img": "img/team/2025-26/TrishaSatyavrat.jpg",
+      "name": "Trisha Satyavrat",
+      "job": "Workshop Coordinator",
+      "linkedin": "/trishasatyavrat/"
+    },
+
+    {
+      "img": "img/team/2025-26/",
+      "name": "Houssin Saadeh",
+      "job": "Workshop Coordinator",
+      "linkedin": "/houssin-saadeh/"
     }
   ],
   "Contact": {

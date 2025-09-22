@@ -15,7 +15,7 @@ export const Contact = () => {
             </li>
             <li>
               <i className="fa fa-clock-o" style={{ marginRight: "5px" }}></i>
-              <span>Fridays 5:00-6:30 PM</span>
+              <span>Wednesdays 4:00-5:30 PM</span>
             </li>
           </ul>
         </div>
