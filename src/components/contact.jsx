@@ -11,7 +11,7 @@ export const Contact = () => {
                 className="fa fa-map-marker"
                 style={{ marginRight: "5px" }}
               ></i>
-              <span>DBH 6100, UC Irvine</span>
+              <span>DBH 6011, UC Irvine</span>
             </li>
             <li>
               <i className="fa fa-clock-o" style={{ marginRight: "5px" }}></i>
